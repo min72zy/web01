@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="1.html" class="w3-bar-item w3-button w3-padding-large w3-white">WEB</a>
+    <a href="2.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">HTML</a>
+    <a href="3.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">CSS</a>
+    <a href="4.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">JAVASCRIPT</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="1.html" class="w3-bar-item w3-button w3-padding-large">WEB</a>
+    <a href="2.html" class="w3-bar-item w3-button w3-padding-large">HTML</a>
+    <a href="3,html" class="w3-bar-item w3-button w3-padding-large">CSS</a>
+    <a href="4.html" class="w3-bar-item w3-button w3-padding-large">JAVASCRIPT</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">WEB</h1>
+  <p class="w3-xlarge">The World Wide Web (WWW), commonly known as the Web, is an information system enabling documents and other web resources to be accessed over the Internet.</p>
+
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Basic Concept</h1>
+      <h5 class="w3-padding-32">Documents and downloadable media are made available to the network through web servers and can be accessed by programs such as web browsers. Servers and resources on the World Wide Web are identified and located through character strings called uniform resource locators (URLs). The original and still very common document type is a web page formatted in Hypertext Markup Language (HTML). This markup language supports plain text, images, embedded video and audio contents, and scripts (short programs) that implement complex user interaction. The HTML language also supports hyperlinks (embedded URLs) which provide immediate access to other web resources. Web navigation, or web surfing, is the common practice of following such hyperlinks across multiple websites. Web applications are web pages that function as application software. The information in the Web is transferred across the Internet using the Hypertext Transfer Protocol (HTTP).</h5>
+
+      <p class="w3-text-grey">Multiple web resources with a common theme and usually a common domain name make up a website. A single web server may provide multiple websites, while some websites, especially the most popular ones, may be provided by multiple servers. Website content is provided by a myriad of companies, organizations, government agencies, and individual users; and comprises an enormous amount of educational, entertainment, commercial, and government information.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>History</h1>
+      <h5 class="w3-padding-32">The Web was invented by English computer scientist Tim Berners-Lee while working at CERN. He conceived it as an information management system using several concepts and technologies, the most fundamental of which was the connections that existed between information.[8][9][10] The first proposal was written in 1989,[7] and a working system implemented by the end of 1990 including the WorldWideWeb browser and an HTTP server.[11] The technology was released outside CERN to other research institutions starting in January 1991, and then to the general public on 23 August 1991. The Web was a success at CERN, and began to spread to other scientific and academic institutions. Within the next two years, there were 50 websites created.[12][13]
+
+        CERN made the Web protocol and code available royalty free in 1993, enabling its widespread use.[14][15] After the NCSA released the Mosaic web browser later that year, the Web's popularity grew rapidly as thousands of websites sprang up in less than a year.[16][17] Mosaic was a graphical browser that could display inline images and submit forms that were processed by the HTTPd server.[18][19] Marc Andreessen and Jim Clark founded Netscape the following year and released the Navigator browser, which introduced Java and JavaScript to the Web. It quickly became the dominant browser. Netscape became a public company in 1995 which triggered a frenzy for the Web and started the dot-com bubble.[20] Microsoft responded by developing its own browser, Internet Explorer, starting the browser wars. By bundling it with Windows, it became the dominant browser for 14 years</h5>
+
+      <p class="w3-text-grey">Tim Berners-Lee founded the World Wide Web Consortium (W3C) which created XML in 1996 and recommended replacing HTML with stricter XHTML.[22] In the meantime, developers began exploiting an IE feature called XMLHttpRequest to make Ajax applications and launched the Web 2.0 revolution. Mozilla, Opera, and Apple rejected XHTML and created the WHATWG which developed HTML5.[23] In 2009, the W3C conceded and abandoned XHTML[24] and in 2019, ceded control of the HTML specification to the WHATWG.[25]
+
+        The World Wide Web has been central to the development of the Information Age and is the primary tool billions of people use to interact on the Internet.</p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">about WEB</h1>
+</div>
+
+<!-- Footer 
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer> -->
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
